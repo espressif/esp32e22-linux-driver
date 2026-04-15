@@ -1,0 +1,28 @@
+esp32e22-linux-driver
+=====================
+
+Copyright 2026 Espressif Systems (Shanghai) Co., Ltd.
+
+This repository aggregates Linux-side drivers, documentation, build helpers,
+and (when published) prebuilt firmware binaries for ESP32E22 connectivity.
+
+Third-party components
+----------------------
+
+- **Git submodules** (e.g. under `wifi-driver/`, `bluetooth-driver/` when added):
+  each submodule is governed by the license file in its own repository root.
+  This aggregate repository does not re-license third-party source trees.
+
+- **Prebuilt firmware** (under `firmware/` when present): licensing and
+  redistribution terms are stated in `firmware/README.md` and any
+  `firmware/LICENSE` or EULA shipped alongside those binaries. Binary
+  artifacts are not necessarily under the same terms as the root `LICENSE`.
+
+- **Current checkout**: This notice will be updated as submodules and
+  binary releases are added. If no submodules or firmware are present,
+  the root tree is primarily documentation and metadata under the root
+  `LICENSE` (Apache-2.0).
+
+For Apache-2.0 attribution requirements when redistributing portions of
+this repository that are licensed under the root license, retain this
+NOTICE file and the accompanying `LICENSE` file.

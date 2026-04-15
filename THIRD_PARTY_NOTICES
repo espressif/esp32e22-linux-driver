@@ -1,0 +1,52 @@
+Third-party notices
+===================
+
+This file lists copyright and license information for all bundled or
+referenced third-party materials in this repository (Git submodules, prebuilt
+firmware, vendored sources). See also the root `NOTICE` file for policy.
+
+## Git submodules
+
+Each submodule is governed by its own root LICENSE file. The following table
+summarizes the submodules and their licenses for quick reference.
+
+| Submodule path       | Upstream repo | License (SPDX) | Copyright holder |
+| -------------------- | ------------- | -------------- | ---------------- |
+| `wifi-driver/`       | <!-- TODO: Fill in upstream repo URL once submodule is added --> | <!-- TODO --> | <!-- TODO --> |
+| `bluetooth-driver/`  | <!-- TODO: Fill in upstream repo URL once submodule is added --> | <!-- TODO --> | <!-- TODO --> |
+
+<!-- TODO: Populate this table when submodules are formally added. -->
+
+## Prebuilt firmware
+
+Firmware binaries under `firmware/` may include third-party components with
+their own license terms. The following table will track those components.
+
+| Component | Version | License (SPDX) | Copyright holder | Notes |
+| --------- | ------- | -------------- | ---------------- | ----- |
+| <!-- TODO: List firmware-embedded third-party components when firmware is released --> | | | | |
+
+<!-- TODO: Coordinate with firmware team to obtain the full bill-of-materials (BOM) for embedded third-party libraries. -->
+
+## Vendored sources
+
+If any third-party source code is vendored directly into this repository
+(outside of Git submodules), it must be listed here.
+
+| Component | Path | Version | License (SPDX) | Copyright holder |
+| --------- | ---- | ------- | -------------- | ---------------- |
+| (none)    | —    | —       | —              | —                |
+
+## Entry format
+
+When adding new entries, use the following format:
+
+```
+Component name
+  Version: X.Y.Z
+  SPDX-License-Identifier: MIT (or Apache-2.0, BSD-2-Clause, etc.)
+  Copyright (c) YYYY Copyright Holder
+  License text: see <path-to-LICENSE> or <URL>
+```
+
+<!-- TODO: Set up a CI check or release checklist item to verify this file stays in sync with actual submodule and firmware contents. -->
