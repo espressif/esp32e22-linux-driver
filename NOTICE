@@ -9,13 +9,14 @@ and (when published) prebuilt firmware binaries for ESP32E22 connectivity.
 Third-party components
 ----------------------
 
-- **Git submodules** (e.g. under `wifi-driver/`, `bluetooth-driver/` when added):
-  each submodule is governed by the license file in its own repository root.
-  This aggregate repository does not re-license third-party source trees.
+- **Git submodules** (e.g. under `wifi-driver/`, `bluetooth-driver/`,
+  `firmware/` when added): each submodule is governed by the license file
+  in its own repository root. This aggregate repository does not re-license
+  third-party source trees.
 
-- **Prebuilt firmware** (under `firmware/` when present): licensing and
-  redistribution terms are stated in `firmware/README.md` and any
-  `firmware/LICENSE` or EULA shipped alongside those binaries. Binary
+- **Prebuilt firmware** (the `firmware/` submodule): licensing and
+  redistribution terms are stated in the firmware submodule's own
+  `README.md` and any `LICENSE` or EULA in that repository. Binary
   artifacts are not necessarily under the same terms as the root `LICENSE`.
 
 - **Current checkout**: This notice will be updated as submodules and

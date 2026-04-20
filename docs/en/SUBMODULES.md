@@ -1,6 +1,6 @@
 # Git submodule conventions
 
-This aggregate repository references upstream Wi-Fi / Bluetooth Linux drivers (or related trees) via **Git submodules**. **Each submodule’s license is defined in that repository’s root**—see the root `NOTICE` and [LICENSE_POLICY.md](LICENSE_POLICY.md).
+This aggregate repository references upstream Wi-Fi / Bluetooth Linux drivers and prebuilt firmware via **Git submodules**. **Each submodule’s license is defined in that repository’s root**—see the root `NOTICE` and [LICENSE_POLICY.md](LICENSE_POLICY.md).
 
 ## Recommended paths (match repo layout)
 
@@ -8,15 +8,22 @@ This aggregate repository references upstream Wi-Fi / Bluetooth Linux drivers (o
 | ---- | ---------------- |
 | `wifi-driver/` | Wi-Fi host driver source tree |
 | `bluetooth-driver/` | Bluetooth host driver source tree |
+| `firmware/` | Prebuilt firmware binaries, release notes, and associated license/EULA |
 
-When using `git submodule add`, prefer these paths to stay consistent with docs and CI.
+When using `git submodule add`, prefer these paths to stay consistent with docs and CI. All submodules use **relative URLs** (e.g. `../esp32e22-fw`) so that they resolve correctly on both GitLab and GitHub mirrors.
+
+| Submodule | Relative URL |
+| --------- | ------------ |
+| `firmware/` | `../esp32e22-fw` |
+| `wifi-driver/` | TODO |
+| `bluetooth-driver/` | TODO |
 
 ## Drivers are not limited to “ESP32E22 only”
 
 Submodules may point to **family-level or generic Linux driver** repositories. This repo pins **ESP32E22** support via:
 
 - Documented **validated commit/tag** and **kernel range** in release notes;
-- **Firmware ↔ driver** compatibility in `firmware/` and [FIRMWARE.md](FIRMWARE.md).
+- **Firmware ↔ driver** compatibility in the `firmware/` submodule and [FIRMWARE.md](FIRMWARE.md).
 
 ## Workflow summary
 

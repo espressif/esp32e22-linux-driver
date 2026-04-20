@@ -6,7 +6,7 @@ This document explains how the **Linux host**, **bus attachment**, and the **uni
 
 - **Host (Linux)**: Runs Wi-Fi and/or Bluetooth host drivers; talks to firmware on the chip over the bus using the chip’s protocol.
 - **Chip (ESP32E22)**: Runs a **single unified** connectivity firmware; handles RF, chip-specific protocol work, and **ROM / download-path arbitration** (exact behavior, including image selection, secure boot, and upgrade policy, follows chip documentation).
-- **Prebuilt firmware**: Usually shipped as binaries under `firmware/`, loaded by drivers or boot flow according to version.
+- **Prebuilt firmware**: Referenced as a Git submodule under `firmware/`, loaded by drivers or boot flow according to version.
 
 ## Host attachment (conceptual)
 

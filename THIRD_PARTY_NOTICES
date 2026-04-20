@@ -2,8 +2,8 @@ Third-party notices
 ===================
 
 This file lists copyright and license information for all bundled or
-referenced third-party materials in this repository (Git submodules, prebuilt
-firmware, vendored sources). See also the root `NOTICE` file for policy.
+referenced third-party materials in this repository (Git submodules,
+vendored sources). See also the root `NOTICE` file for policy.
 
 ## Git submodules
 
@@ -14,13 +14,14 @@ summarizes the submodules and their licenses for quick reference.
 | -------------------- | ------------- | -------------- | ---------------- |
 | `wifi-driver/`       | <!-- TODO: Fill in upstream repo URL once submodule is added --> | <!-- TODO --> | <!-- TODO --> |
 | `bluetooth-driver/`  | <!-- TODO: Fill in upstream repo URL once submodule is added --> | <!-- TODO --> | <!-- TODO --> |
+| `firmware/`          | `../esp32e22-fw` (relative URL) | <!-- TODO: confirm license --> | <!-- TODO: confirm copyright --> |
 
 <!-- TODO: Populate this table when submodules are formally added. -->
 
-## Prebuilt firmware
+## Firmware-embedded third-party components
 
-Firmware binaries under `firmware/` may include third-party components with
-their own license terms. The following table will track those components.
+The `firmware/` submodule may include prebuilt binaries that embed
+third-party libraries. The following table will track those components.
 
 | Component | Version | License (SPDX) | Copyright holder | Notes |
 | --------- | ------- | -------------- | ---------------- | ----- |
@@ -35,7 +36,7 @@ If any third-party source code is vendored directly into this repository
 
 | Component | Path | Version | License (SPDX) | Copyright holder |
 | --------- | ---- | ------- | -------------- | ---------------- |
-| (none)    | —    | —       | —              | —                |
+| (none)    | ---  | ---     | ---            | ---              |
 
 ## Entry format
 
