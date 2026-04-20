@@ -11,7 +11,17 @@ This document records the **intended policy** for this aggregate repository, ali
 ## Git submodules (`wifi-driver/`, `bluetooth-driver/`, `firmware/`, ...)
 
 - **Each upstream repo's root `LICENSE` applies**; this aggregate repo **does not** re-license those trees.
+- The Wi-Fi and Bluetooth host driver submodules are licensed under **GPL-2.0**, as is standard for Linux kernel modules. The root repo's Apache-2.0 and the drivers' GPL-2.0 do not conflict because they apply to separate, independent components connected only by submodule pointers (no derivative work is created).
 - Driver submodules may target **chip families or generic Linux drivers**, not only a single ESP32E22 SKU; this repo defines and documents the support matrix via version references and associated documentation (see [SUBMODULES.md](SUBMODULES.md)).
+- Scripts or build helpers in the root repo must **not** incorporate or derive from GPL-licensed driver source code; otherwise those files would need to be re-licensed under GPL.
+
+### Submodule license summary
+
+| Submodule | License (SPDX) | Copyright holder |
+| --------- | -------------- | ---------------- |
+| `wifi-driver/` | <!-- TODO: confirm SPDX license --> | <!-- TODO: confirm copyright holder --> |
+| `bluetooth-driver/` | <!-- TODO: confirm SPDX license --> | <!-- TODO: confirm copyright holder --> |
+| `firmware/` | <!-- TODO: confirm license --> | <!-- TODO: confirm copyright holder --> |
 
 ## Firmware submodule (`firmware/`)
 

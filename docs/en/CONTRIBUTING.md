@@ -33,6 +33,6 @@ By submitting a contribution (pull request, patch, or other form) to this reposi
 ## Process notes
 
 1. When changing submodule pointers, explain **why**, **what was tested**, and **matching firmware version** (if any) in the MR/PR.
-2. License or third-party notice changes must update root `NOTICE`, `THIRD_PARTY_NOTICES`, and [LICENSE_POLICY.md](LICENSE_POLICY.md) together with [docs/zh/LICENSE_POLICY.md](../zh/LICENSE_POLICY.md). Keep both language versions in sync.
+2. License or third-party notice changes must update [LICENSE_POLICY.md](LICENSE_POLICY.md) together with [docs/zh/LICENSE_POLICY.md](../zh/LICENSE_POLICY.md). Keep both language versions in sync.
 
 *中文: [docs/zh/CONTRIBUTING.md](../zh/CONTRIBUTING.md)*

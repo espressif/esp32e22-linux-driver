@@ -37,7 +37,4 @@ Detailed build and installation steps for drivers and firmware will be added onc
 3. **Prebuilt Firmware (`firmware/`)**
    Referenced as a Git submodule; may be licensed **differently** from the root repository source code. Refer to the `README`, `LICENSE`, or EULA in the firmware submodule's own repository.
 
-4. **Third-Party Notices**
-   See the root `NOTICE` and `THIRD_PARTY_NOTICES` files; these will be updated as submodules and firmware releases are added.
-
 ---

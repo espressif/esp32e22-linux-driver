@@ -1,6 +1,6 @@
 # Git 子模块约定
 
-本聚合仓库通过 **Git 子模块** 引用上游 Wi-Fi / Bluetooth Linux 驱动及预编译固件。**许可证以各子仓库根目录文件为准**，见根目录 `NOTICE` 与 [LICENSE_POLICY.md](LICENSE_POLICY.md)。
+本聚合仓库通过 **Git 子模块** 引用上游 Wi-Fi / Bluetooth Linux 驱动及预编译固件。**许可证以各子仓库根目录文件为准**，见 [LICENSE_POLICY.md](LICENSE_POLICY.md)。
 
 ## 推荐路径名（与仓库目录一致）
 
