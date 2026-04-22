@@ -1,12 +1,12 @@
 # 固件二进制
 
-本页描述 **`firmware/`** 目录内预编译固件的**预期布局、命名与版本契约**；具体文件以正式发布为准，未定稿前本文档作为目标规格说明。
+本页描述预编译固件的**预期布局、命名与版本契约**。`firmware/` 目录为 **Git 子模块**，指向上游固件仓库。具体文件以正式发布为准，未定稿前本文档作为目标规格说明。
 
 ## 布局与命名（TODO：发布时定稿）
 
 | 项目 | 说明 |
 | ---- | ---- |
-| 目录 | 仓库内 `firmware/`，见该目录 `README.md` |
+| 目录 | 仓库内 `firmware/` 子模块，见该子模块的 `README.md` |
 | 命名 | 建议包含芯片变体、接口形态、版本号（例如语义化版本或构建 ID）；正式发布时固定规则并写入此处 |
 | 校验 | 建议在发布页或 CI 产物中提供 **SHA-256** 等校验和清单（后续迭代） |
 
@@ -22,6 +22,6 @@
 
 ## 法律与再分发
 
-- 二进制许可可能与根仓库 **Apache-2.0** 不同；以 `firmware/LICENSE`、EULA 及 `firmware/README.md` 为准，详见 [LICENSE_POLICY.md](LICENSE_POLICY.md)。
+- 二进制许可可能与根仓库 **Apache-2.0** 不同；以固件子模块仓库内的 `LICENSE`、EULA 及 `README.md` 为准，详见 [LICENSE_POLICY.md](LICENSE_POLICY.md)。
 
 *English: [docs/en/FIRMWARE.md](../en/FIRMWARE.md)*

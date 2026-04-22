@@ -1,12 +1,12 @@
 # Firmware binaries
 
-This page describes the **expected layout, naming, and version contract** for prebuilt firmware under **`firmware/`**. Shipped files will follow official releases; until such releases are available, treat this document as a target specification.
+This page describes the **expected layout, naming, and version contract** for prebuilt firmware. The `firmware/` directory is a **Git submodule** pointing to an upstream firmware repository. Shipped files will follow official releases; until such releases are available, treat this document as a target specification.
 
 ## Layout and naming (TODO: finalize at release)
 
 | Item | Notes |
 | ---- | ----- |
-| Directory | `firmware/` in this repo; see that directory’s `README.md` |
+| Directory | `firmware/` submodule in this repo; see that submodule's `README.md` |
 | Naming | Should include chip variant, interface form factor, version (semver or build ID); finalize rules at release and update this doc |
 | Checksums | Prefer **SHA-256** (or similar) manifests on release pages or CI artifacts (future iteration) |
 
@@ -22,6 +22,6 @@ This page describes the **expected layout, naming, and version contract** for pr
 
 ## Legal and redistribution
 
-- Binary terms may differ from the root repo **Apache-2.0**; follow `firmware/LICENSE`, any EULA, and `firmware/README.md`. See [LICENSE_POLICY.md](LICENSE_POLICY.md).
+- Binary terms may differ from the root repo **Apache-2.0**; follow the `LICENSE`, any EULA, and `README.md` in the firmware submodule's own repository. See [LICENSE_POLICY.md](LICENSE_POLICY.md).
 
 *中文: [docs/zh/FIRMWARE.md](../zh/FIRMWARE.md)*

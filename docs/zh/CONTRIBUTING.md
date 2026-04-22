@@ -33,6 +33,6 @@ Wi-Fi 与 Bluetooth 并非总能完全独立看待——芯片级崩溃会同时
 ## 流程提示
 
 1. 变更子模块指针时，请在 MR/PR 中说明**原因**、**测试范围**与**对应固件版本**（若适用）。
-2. 涉及许可证或第三方声明的变更，请同步更新根目录 `NOTICE`、`THIRD_PARTY_NOTICES` 及 [LICENSE_POLICY.md](LICENSE_POLICY.md)（并与 [docs/en/LICENSE_POLICY.md](../en/LICENSE_POLICY.md) 中英文内容保持一致）。
+2. 涉及许可证或第三方声明的变更，请同步更新 [LICENSE_POLICY.md](LICENSE_POLICY.md)（并与 [docs/en/LICENSE_POLICY.md](../en/LICENSE_POLICY.md) 中英文内容保持一致）。
 
 *English: [docs/en/CONTRIBUTING.md](../en/CONTRIBUTING.md)*

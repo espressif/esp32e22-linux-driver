@@ -1,6 +1,6 @@
 # esp32e22-linux-driver
 
-Linux-side **aggregate repository** for **ESP32E22**: Wi-Fi / Bluetooth host drivers (via Git submodules), prebuilt firmware, and documentation for version pinning and release orchestration.
+Linux-side **aggregate repository** for **ESP32E22**: Wi-Fi / Bluetooth host drivers and prebuilt firmware (all via Git submodules), plus documentation for version pinning and release orchestration.
 
 ## Chip Capabilities (Summary)
 
@@ -13,7 +13,7 @@ Linux-side **aggregate repository** for **ESP32E22**: Wi-Fi / Bluetooth host dri
 | --------- | ----------- |
 | `wifi-driver/` | Wi-Fi host driver submodule (TODO: add submodule when upstream repo is ready) |
 | `bluetooth-driver/` | Bluetooth host driver submodule (TODO: add submodule when upstream repo is ready) |
-| `firmware/` | Prebuilt firmware binaries (TODO: add binaries and finalize distribution terms at release) |
+| `firmware/` | Prebuilt firmware submodule (TODO: add submodule when upstream repo is ready) |
 | `docs/` | Documentation in Chinese and English: architecture, submodule conventions, firmware–driver version contracts, etc. |
 
 ## Documentation
@@ -35,9 +35,6 @@ Detailed build and installation steps for drivers and firmware will be added onc
    Each sub-repo is governed by **its own root license**; do not assume a single license applies to the entire tree.
 
 3. **Prebuilt Firmware (`firmware/`)**
-   May be licensed **differently** from the root repository source code; refer to the `README`, `LICENSE`, or EULA inside `firmware/`.
-
-4. **Third-Party Notices**
-   See the root `NOTICE` and `THIRD_PARTY_NOTICES` files; these will be updated as submodules and firmware releases are added.
+   Referenced as a Git submodule; may be licensed **differently** from the root repository source code. Refer to the `README`, `LICENSE`, or EULA in the firmware submodule's own repository.
 
 ---
