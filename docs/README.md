@@ -11,4 +11,4 @@ This repository keeps **English** and **Chinese** copies of the same topics unde
 | Git submodules | [SUBMODULES.md](en/SUBMODULES.md) | [SUBMODULES.md](zh/SUBMODULES.md) |
 | Firmware | [FIRMWARE.md](en/FIRMWARE.md) | [FIRMWARE.md](zh/FIRMWARE.md) |
 | License policy | [LICENSE_POLICY.md](en/LICENSE_POLICY.md) | [LICENSE_POLICY.md](zh/LICENSE_POLICY.md) |
-| Contributing | [CONTRIBUTING.md](en/CONTRIBUTING.md) | [CONTRIBUTING.md](zh/CONTRIBUTING.md) |
+| Contributing (scope, branch names, commits) | [CONTRIBUTING.md](en/CONTRIBUTING.md) | [CONTRIBUTING.md](zh/CONTRIBUTING.md) |
