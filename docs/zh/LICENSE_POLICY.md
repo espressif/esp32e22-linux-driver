@@ -20,7 +20,7 @@
 | 子模块 | 许可证 (SPDX) | 版权持有者 |
 | ------ | ------------- | ---------- |
 | `wifi-driver/` | GPL-2.0-only | Espressif Systems (Shanghai) CO LTD |
-| `bluetooth-driver/` | <!-- TODO: 确认 SPDX 许可证 --> | <!-- TODO: 确认版权持有者 --> |
+| `bluetooth-driver/` | GPL-2.0-only | Espressif Systems (Shanghai) CO LTD |
 | `firmware/` | <!-- TODO: 确认许可证 --> | <!-- TODO: 确认版权持有者 --> |
 
 ## 固件子模块（`firmware/`）

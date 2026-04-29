@@ -4,3 +4,6 @@
 [submodule "wifi-driver"]
 	path = wifi-driver
 	url = ../esp-wifi-drv
+[submodule "bluetooth-driver"]
+	path = bluetooth-driver
+	url = ../esp-btdm-linux-drv
