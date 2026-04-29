@@ -27,8 +27,8 @@ By submitting a contribution (pull request, patch, or other form) to this reposi
 2. You grant Espressif Systems a perpetual, worldwide, non-exclusive, royalty-free, irrevocable license to use, reproduce, modify, and distribute your contribution under the terms of the **Apache License 2.0** (or the license applicable to the specific component).
 3. You understand that your contribution may be incorporated into Espressif products and redistributed under the same or compatible terms.
 
-<!-- TODO: Replace this summary with a link to the formal Contributor License Agreement (CLA) once finalized by legal. -->
-<!-- TODO: Evaluate whether to adopt DCO (Developer Certificate of Origin) sign-off via `Signed-off-by` lines instead of or in addition to CLA. -->
+If a formal CLA or DCO requirement is introduced, it will be documented before
+external contributions are accepted under that process.
 
 ## Process notes
 

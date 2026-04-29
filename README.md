@@ -13,7 +13,7 @@ Linux-side **aggregate repository** for **ESP32E22**: Wi-Fi / Bluetooth host dri
 | --------- | ----------- |
 | `wifi-driver/` | Wi-Fi host driver submodule ([esp-wifi-drv](../esp-wifi-drv)) |
 | `bluetooth-driver/` | Bluetooth host driver submodule ([esp-btdm-linux-drv](../esp-btdm-linux-drv)) |
-| `firmware/` | Prebuilt firmware submodule (TODO: add submodule when upstream repo is ready) |
+| `firmware/` | Prebuilt firmware submodule ([esp32e22-fw](../esp32e22-fw)) |
 | `docs/` | Documentation in Chinese and English: architecture, submodule conventions, firmware–driver version contracts, etc. |
 
 ## Documentation
@@ -24,7 +24,12 @@ Linux-side **aggregate repository** for **ESP32E22**: Wi-Fi / Bluetooth host dri
 
 ## Build & Installation
 
-Detailed build and installation steps for drivers and firmware will be added once submodules and release artifacts are in place. For now the repository focuses on documentation and directory structure.
+This aggregate repository does not build driver modules directly. Use the
+submodule documentation for component-specific build and integration steps:
+
+- Wi-Fi driver: [wifi-driver/README.md](wifi-driver/README.md)
+- Bluetooth driver: [bluetooth-driver/README.md](bluetooth-driver/README.md)
+- Firmware packaging and versioning: [firmware/README.md](firmware/README.md)
 
 ## License (Layered Overview)
 
