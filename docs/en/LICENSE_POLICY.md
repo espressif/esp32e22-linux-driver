@@ -19,7 +19,7 @@ This document records the **intended policy** for this aggregate repository, ali
 
 | Submodule | License (SPDX) | Copyright holder |
 | --------- | -------------- | ---------------- |
-| `wifi-driver/` | <!-- TODO: confirm SPDX license --> | <!-- TODO: confirm copyright holder --> |
+| `wifi-driver/` | GPL-2.0-only | Espressif Systems (Shanghai) CO LTD |
 | `bluetooth-driver/` | <!-- TODO: confirm SPDX license --> | <!-- TODO: confirm copyright holder --> |
 | `firmware/` | <!-- TODO: confirm license --> | <!-- TODO: confirm copyright holder --> |
 

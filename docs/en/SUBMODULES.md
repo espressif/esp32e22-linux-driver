@@ -15,7 +15,7 @@ When using `git submodule add`, prefer these paths to stay consistent with docs 
 | Submodule | Relative URL |
 | --------- | ------------ |
 | `firmware/` | `../esp32e22-fw` |
-| `wifi-driver/` | TODO |
+| `wifi-driver/` | `../esp-wifi-drv` |
 | `bluetooth-driver/` | TODO |
 
 ## Drivers are not limited to "ESP32E22 only"

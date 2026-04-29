@@ -15,7 +15,7 @@
 | 子模块 | 相对 URL |
 | ------ | -------- |
 | `firmware/` | `../esp32e22-fw` |
-| `wifi-driver/` | TODO |
+| `wifi-driver/` | `../esp-wifi-drv` |
 | `bluetooth-driver/` | TODO |
 
 ## 驱动不限于「仅 ESP32E22」
