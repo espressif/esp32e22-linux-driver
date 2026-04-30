@@ -11,7 +11,7 @@ This document records the **intended policy** for this aggregate repository, ali
 ## Git submodules (`wifi-driver/`, `bluetooth-driver/`, `firmware/`, ...)
 
 - **Each upstream repo's root `LICENSE` applies**; this aggregate repo **does not** re-license those trees.
-- The Wi-Fi and Bluetooth host driver submodules are licensed under **GPL-2.0**, as is standard for Linux kernel modules. The root repo's Apache-2.0 and the drivers' GPL-2.0 do not conflict because they apply to separate, independent components connected only by submodule pointers (no derivative work is created).
+- The Wi-Fi and Bluetooth host driver submodules are dual-licensed under **GPL-2.0 OR BSD-3-Clause**, a common practice for Linux kernel drivers. The root repo's Apache-2.0 and the drivers' dual license do not conflict because they apply to separate, independent components connected only by submodule pointers (no derivative work is created).
 - Driver submodules may target **chip families or generic Linux drivers**, not only a single ESP32E22 SKU; this repo defines and documents the support matrix via version references and associated documentation (see [SUBMODULES.md](SUBMODULES.md)).
 - Scripts or build helpers in the root repo must **not** incorporate or derive from GPL-licensed driver source code; otherwise those files would need to be re-licensed under GPL.
 
@@ -19,16 +19,16 @@ This document records the **intended policy** for this aggregate repository, ali
 
 | Submodule | License (SPDX) | Copyright holder |
 | --------- | -------------- | ---------------- |
-| `wifi-driver/` | <!-- TODO: confirm SPDX license --> | <!-- TODO: confirm copyright holder --> |
-| `bluetooth-driver/` | <!-- TODO: confirm SPDX license --> | <!-- TODO: confirm copyright holder --> |
-| `firmware/` | <!-- TODO: confirm license --> | <!-- TODO: confirm copyright holder --> |
+| `wifi-driver/` | GPL-2.0 OR BSD-3-Clause | Espressif Systems (Shanghai) CO LTD |
+| `bluetooth-driver/` | GPL-2.0 OR BSD-3-Clause | Espressif Systems (Shanghai) CO LTD |
+| `firmware/` | Apache-2.0 | Espressif Systems (Shanghai) CO LTD |
 
 ## Firmware submodule (`firmware/`)
 
 - The `firmware/` directory is a **Git submodule** pointing to an upstream firmware repository.
-- **Separate from root source licensing**: prebuilt firmware may be under different terms (dedicated EULA, closed-binary redistribution rules). The applicable license is defined in the firmware submodule's own repository root.
-- **At release**, the firmware submodule must contain clear terms: `README.md`, and `LICENSE` / EULA / `NOTICE` snippets as needed.
-- Before terms are final, placeholders are acceptable if marked "update before release"; **product and legal stakeholders must review and approve** prior to General Availability (GA).
+- **Separate from root source licensing**: the current firmware submodule is licensed under **Apache-2.0**, as shown in its root `LICENSE`.
+- If a future firmware release changes terms (for example by adding a dedicated EULA, closed-binary redistribution rules, or `NOTICE` requirements), the applicable terms are defined by the firmware submodule's own repository root.
+- **At release**, the firmware submodule must contain clear terms in `README.md`, `LICENSE`, and any required EULA / `NOTICE` files.
 
 ## SPDX copyright header requirements
 
@@ -43,9 +43,6 @@ Adapt the comment style to the file type (e.g. `#` for shell/Python, `/* */` for
 
 - Files in **Git submodules** follow each upstream repo's own header conventions.
 - Files in **`firmware/`** (prebuilt binaries) are exempt from source headers; their terms are covered by the submodule-level `LICENSE` / EULA.
-
-<!-- TODO: Add CI check for copyright headers (e.g. `tools/ci/check_copyright_config.yaml` similar to esp-idf). -->
-<!-- TODO: Confirm the exact Espressif legal entity name and copyright year range with legal. -->
 
 ## Change log
 

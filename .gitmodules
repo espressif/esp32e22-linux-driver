@@ -1,3 +1,9 @@
 [submodule "firmware"]
 	path = firmware
 	url = ../esp32e22-fw
+[submodule "wifi-driver"]
+	path = wifi-driver
+	url = ../esp-wifi-drv
+[submodule "bluetooth-driver"]
+	path = bluetooth-driver
+	url = ../esp-btdm-linux-drv
