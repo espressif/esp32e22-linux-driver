@@ -33,7 +33,7 @@ external contributions are accepted under that process.
 ## Process notes
 
 1. When changing submodule pointers, explain **why**, **what was tested**, and **matching firmware version** (if any) in the **commit message body** and the MR/PR (so `git log` matches what reviewers read).
-2. License or third-party notice changes must update [LICENSE_POLICY.md](LICENSE_POLICY.md) together with [docs/zh/LICENSE_POLICY.md](../zh/LICENSE_POLICY.md). Keep both language versions in sync.
+2. License or third-party notice changes must update [LICENSE_POLICY.md](LICENSE_POLICY.md) together with [its Chinese counterpart](../zh/LICENSE_POLICY.md). Keep both language versions in sync.
 
 ## Branch naming
 
