@@ -1,7 +1,7 @@
 # 固件二进制
 
 本页描述预编译固件的**当前布局、命名与版本契约**。`firmware/` 目录为 **Git 子模块**，
-指向上游固件交付仓库 [`esp32e22-fw`](../../firmware/README.md)。
+指向上游固件交付仓库 [`esp32e22-fw`](https://github.com/espressif/esp32e22-fw#readme)。
 
 ## 布局与命名
 
