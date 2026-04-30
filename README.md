@@ -55,7 +55,7 @@ submodule documentation for component-specific build and integration steps:
 ## License (Layered Overview)
 
 1. **Root `LICENSE` (Apache-2.0)**
-   Covers documentation, scripts, build helpers, and metadata **owned by this repository** that are not part of any submodule. Consistent with the license family used by many Espressif open-source projects; see [LICENSE_POLICY (English)](docs/en/LICENSE_POLICY.md) / [LICENSE_POLICY（中文）](docs/zh/LICENSE_POLICY.md) for details.
+   Covers documentation, scripts, build helpers, and metadata **owned by this repository** that are not part of any submodule. Consistent with the license family used by many Espressif open-source projects; see [LICENSE_POLICY.md (English)](docs/en/LICENSE_POLICY.md) / [LICENSE_POLICY.md（中文）](docs/zh/LICENSE_POLICY.md) for details.
 
 2. **Git Submodules**
    Each sub-repo is governed by **its own root license**; do not assume a single license applies to the entire tree.

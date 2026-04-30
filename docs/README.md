@@ -6,9 +6,9 @@ This repository keeps **English** and **Chinese** copies of the same topics unde
 
 | Topic | English | 中文 |
 | ----- | ------- | ---- |
-| Index | [docs/en/README.md](en/README.md) | [docs/zh/README.md](zh/README.md) |
-| Architecture | [ARCHITECTURE.md](en/ARCHITECTURE.md) | [ARCHITECTURE.md](zh/ARCHITECTURE.md) |
-| Git submodules | [SUBMODULES.md](en/SUBMODULES.md) | [SUBMODULES.md](zh/SUBMODULES.md) |
-| Firmware | [FIRMWARE.md](en/FIRMWARE.md) | [FIRMWARE.md](zh/FIRMWARE.md) |
-| License policy | [LICENSE_POLICY.md](en/LICENSE_POLICY.md) | [LICENSE_POLICY.md](zh/LICENSE_POLICY.md) |
-| Contributing (scope, branch names, commits) | [CONTRIBUTING.md](en/CONTRIBUTING.md) | [CONTRIBUTING.md](zh/CONTRIBUTING.md) |
+| Index | [English](en/README.md) | [中文](zh/README.md) |
+| Architecture | [English](en/ARCHITECTURE.md) | [中文](zh/ARCHITECTURE.md) |
+| Git submodules | [English](en/SUBMODULES.md) | [中文](zh/SUBMODULES.md) |
+| Firmware | [English](en/FIRMWARE.md) | [中文](zh/FIRMWARE.md) |
+| License policy | [English](en/LICENSE_POLICY.md) | [中文](zh/LICENSE_POLICY.md) |
+| Contributing | [English](en/CONTRIBUTING.md) | [中文](zh/CONTRIBUTING.md) |
