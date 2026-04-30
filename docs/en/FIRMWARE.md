@@ -2,7 +2,7 @@
 
 This page describes the **current layout, naming, and version contract** for
 prebuilt firmware. The `firmware/` directory is a **Git submodule** pointing to
-[`esp32e22-fw`](../../firmware/README.md), the upstream firmware delivery
+[`esp32e22-fw`](https://github.com/espressif/esp32e22-fw#readme), the upstream firmware delivery
 repository.
 
 ## Layout and naming

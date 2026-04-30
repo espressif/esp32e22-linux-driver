@@ -60,7 +60,7 @@ Use **short-lived** branches for MRs/PRs: branch off `main`, open the merge requ
 
 **Pattern:** **`release/vN`**
 
-- **`N`** — non-negative integer matching the official aggregate-repo release index and the **`vN`** git tag (see [firmware/VERSIONING.md](../../firmware/VERSIONING.md): `v1`, `v2`, …).
+- **`N`** — non-negative integer matching the official aggregate-repo release index and the **`vN`** git tag (see [firmware/VERSIONING.md](https://github.com/espressif/esp32e22-fw/blob/main/VERSIONING.md): `v1`, `v2`, …).
 - Not every tag requires a long-lived branch; use **`release/vN`** only when you need ongoing fixes on a stabilization line before tagging.
 
 ## Commit messages

@@ -59,7 +59,7 @@ Wi-Fi 与 Bluetooth 并非总能完全独立看待——芯片级崩溃会同时
 
 **格式：** **`release/vN`**
 
-- **`N`** — 非负整数，与官方聚合仓发布序号及 git 标签 **`vN`** 一致（见 [firmware/VERSIONING.md](../../firmware/VERSIONING.md)，如 `v1`、`v2` …）。
+- **`N`** — 非负整数，与官方聚合仓发布序号及 git 标签 **`vN`** 一致（见 [firmware/VERSIONING.md](https://github.com/espressif/esp32e22-fw/blob/main/VERSIONING.md)，如 `v1`、`v2` …）。
 - 并非每次打标都要长期保留分支；仅在打标前需要**稳定线**上持续修问题时再使用 **`release/vN`**。
 
 ## 提交信息（commit message）
