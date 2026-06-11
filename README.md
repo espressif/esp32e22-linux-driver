@@ -1,6 +1,6 @@
 # esp32e22-linux-driver
 
-**Current release: v0.5**
+**Current release: v0.6**
 
 Linux-side **aggregate repository** for **ESP32E22**: Wi-Fi / Bluetooth host drivers and prebuilt firmware (all via Git submodules), plus documentation for version pinning and release orchestration.
 
@@ -9,7 +9,7 @@ Linux-side **aggregate repository** for **ESP32E22**: Wi-Fi / Bluetooth host dri
 - **Wi-Fi 6E**, **Bluetooth 5.4**
 - The chip runs a **unified firmware**; the host may expose separate Wi-Fi and Bluetooth driver stacks, coordinated by the chip-side firmware and ROM download/arbitration mechanism (see architecture docs for details).
 
-## Feature Status (v0.5)
+## Feature Status (v0.6)
 
 | Feature | Interface | Status |
 | ------- | --------- | ------ |
